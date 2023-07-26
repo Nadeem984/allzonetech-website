@@ -1,0 +1,11 @@
+.top-bar{
+    height: 62px;
+    background: #1B1B1B;
+    color: #F8F9FA;
+    padding: 15px 0px;
+    font: 12px Roboto, sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between  ;
+}
