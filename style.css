@@ -5,7 +5,18 @@
     padding: 15px 0px;
     font: 12px Roboto, sans-serif;
 }
+.contact{
+    
+}
 .top{
     display: flex;
     justify-content: space-between  ;
 }
+.fa-phone-flip{
+    font-size: 40px;
+    margin-right: 50px;
+}
+.para1{
+    margin-right: 50px;
+}
+

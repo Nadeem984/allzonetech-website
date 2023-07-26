@@ -5,6 +5,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="/bootsrap/css/bootstrap.min.css">
     <script src="/bootsrap/js/bootstrap.min.js"></script>
+    
     <!-- font awesome -->
     <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
     <script src="./fontawesome-free-6.4.0-web/js/all.min.js"></script>
@@ -20,8 +21,8 @@
         </div>
     </div>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent border-bottom">
+            <div class="container my-2 mx-0">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,9 +45,11 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Custom Software Soloutions</a> 
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <!-- first inner dropdown -->
                                 <li><a class="dropdown-item" href="#">Software Development</a></li>
                             </ul>
                         </li>
+                        <!-- 2nd inner dropdown -->
                     <li>
                         <a class="dropdown-item" href="#">Mobile Application Development</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -55,17 +58,46 @@
                             <li><a class="dropdown-item" href="#">Hybrid App Development</a></li>
                         </ul>
                     </li>
+                    <!-- 2nd dropdown end -->
                       <li><a class="dropdown-item" href="#">DevOps</a></li>
                       <li><a class="dropdown-item" href="#">Artifical Intelligence</a></li>
                       <li><a class="dropdown-item" href="#">Data Analaytics</a></li>
                       <li><a class="dropdown-item" href="#">IoT And Technology</a></li>
                       <li><a class="dropdown-item" href="#">Hire A Developer</a></li>
                     </ul>
-                  </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          SOLUTIONS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">ERP / CRM</a></li>
+                          <li><a class="dropdown-item" href="#">E-Commerce</a></li>
+                          <li><a class="dropdown-item" href="#">Wordpress</a></li>
+                        </ul>
+                    </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CAREERS</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OUR CULTURE</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
                 </ul>
               </div>
             </div>
-          </nav> 
+            <div class="contact d-flex" >
+                <i class="fa-solid fa-phone-flip"></i>
+                <div>
+                    <p class="para1">Have any Question?</p>
+                    <h5>+1 (302) 315-0577</h5>
+                </div>
+            </div>
+        </nav> 
     </div>
 </body>
 </html>
