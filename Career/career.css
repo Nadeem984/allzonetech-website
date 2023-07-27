@@ -1,0 +1,98 @@
+.pic-area{
+    background-image:url(./images/hiring.jpg) ;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.shadow.dark::after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.text-light {
+    color: #f8f9fa!important;
+
+}
+.text-center {
+    text-align: center!important;
+
+}
+/**pic end **/
+.h2{
+    font-size: 36px;
+    color: #1d2746;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* .main{
+    display: flex;
+    flex-wrap: wrap;
+     padding: 50px;
+}
+.box{
+    background-color:#32A2F0; 
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 40px; 
+} 
+.box{
+    width: 32%;
+    display: inline-block;
+    background: #32a2f0;
+    margin-right: 1%;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul {
+     display: flex; 
+     list-style-type: disc;
+     padding-left: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; 
+}   */
+.shadow.dark::after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+        
+}
+/* mmm */
+.mak-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ol, ul {
+    box-sizing: border-box;
+}
+/* mmmmm */
+.my-style{
+    background: #32A2F0;
+    border-radius: 7px;
+}
+
