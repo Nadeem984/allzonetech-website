@@ -19,4 +19,24 @@
 .para1{
     margin-right: 50px;
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
+.btn{
+    background: #32A2F0;
+    color: #F8F9FA;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+}
+.tabone{
+    height: 600px;
+    background-image: url(./images/13.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.container-2{
+    background-image: url(./images/6-2.jpg);
+}
 
