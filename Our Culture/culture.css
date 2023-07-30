@@ -1,0 +1,85 @@
+/** All Zone START **/
+.pic-area{
+    height: 90vh;
+    background-image:url(./image/our-team.jpg) ;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-size:cover;
+}
+.shadow.dark::after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+/** Section-1 End **/
+  .bp{
+    padding: 2rem;
+    padding-top: -2rem;
+  }
+  .wp{
+    padding: 2rem;
+  }
+/* footer start */
+.footer{
+    height: 40rem;
+    width: 100%;
+    background-color: #212520;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+.p{
+    padding-top: 1rem;
+    color: #eeeeee;
+}
+#h4{
+    color: #FFFFFF;
+    padding-right: 11rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+.page1{
+    margin-top: 1rem;
+}
+.page2{
+    padding-top: 1rem;
+}
+.page3{
+    padding-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 0.4rem;
+}
+#contact{
+    color: #FFFFFF;
+    padding-right: 4rem;
+    text-align: center;
+    margin-top: -1.2rem;
+    padding-bottom: 1rem;
+    font-size: 1.7em;
+}
+.add{
+    display: inline-block;
+    padding-right: 1rem;
+}
+#ic{
+    padding-right: 1rem;
+    font-size: 2em;
+    color: #1273eb;
+}
+ /* footer end */
+
