@@ -1,42 +1,110 @@
-.top-bar{
-    height: 62px;
-    background: #1B1B1B;
-    color: #F8F9FA;
-    padding: 15px 0px;
-    font: 12px Roboto, sans-serif;
+/* topbar style */
+.navbar-stylee{
+    padding-top: 0px;
+    border-bottom: solid 1px #F8F9FA;
 }
-.contact{
-    
-}
-.top{
-    display: flex;
-    justify-content: space-between  ;
-}
-.fa-phone-flip{
-    font-size: 40px;
-    margin-right: 50px;
-}
-.para1{
-    margin-right: 50px;
-}
-.dropdown:hover .dropdown-menu{
-    display: block;
-    
-}
-.btn{
-    background: #32A2F0;
-    color: #F8F9FA;
-    width: 150px;
+.logo-image{
     height: 50px;
-    border-radius: 7px;
 }
-.tabone{
-    height: 600px;
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1B1B1B;
+    font: 15px Roboto, sans-serif;
+    padding: 15px 0px;
+    font-size: .8rem;
+    
+
+}
+.topbar-content ul{
+    color: #F8F9FA;
+    justify-content: space-between;
+}
+.topbar-icon{
+    padding-left: 570px;
+}
+.topbar-icon ul{
+    color: #F8F9FA;
+    justify-content: space-between;
+    display: block;
+}
+/* End Topbat */
+/* Start Navbar */
+.list-item{
+    border-bottom: 1px solid #F8F9FA;
+}
+.telephone-section{
+    padding-left: 20px;
+    border-left: solid 1px #F8F9FA;
+}
+.telephone{
+    height: 45px;
+    padding-right: 20px;
+}
+/* navbar End */
+/* Slider Section Start */
+
+
+/* heading section */
+.heading-section{
+    padding-top: 50px;
     background-image: url(./images/13.png);
-    background-repeat: no-repeat;
-    margin-top: 100px;
 }
-.container-2{
+.con-image{
     background-image: url(./images/6-2.jpg);
+    position: relative;
+    padding: 50px;
+    padding-top: 450px;
+    
 }
 
+.span-text{
+    /* border: solid 1px #F8F9FA; */
+}
+.button-sec{
+    background-color: #F8F9FA;
+    border-radius: 45px;
+    border:none;
+    height: 40px;
+    width: 150px;    
+}
+.button-sec{
+    border: #F8F9FA;
+}
+/* heading section end*/
+.nexttt{
+ background-color: #666666;
+ color: #1d2746;
+ text-align: center;
+
+}
+.nexttt button{
+    width: 150px;
+    align-items: center;
+    border: none;
+    text-align: center;
+    color: #fff;
+    background-color: #00c1cf;
+    border-radius: 5px;
+    height: 50px;
+}
+/* end */
+/* .{
+    margin: 50px;
+} */
+.certificates img{
+    height: 100px;
+    margin: 50px;
+}
+/* ......... */
+.images-gallery{
+    height: 250px;
+}
+.join-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    color: #F8F9FA;
+    background-color: #1d2746;
+}
